@@ -1,0 +1,223 @@
+# ============================================================
+# Flutter & Dart
+# ============================================================
+
+# 빌드 결과물
+/build/
+**/android/app/build/
+**/ios/build/
+
+# Dart 도구 및 패키지
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.packages
+.pub-cache/
+.pub/
+
+# 메타데이터
+/.metadata
+
+# IDE 설정 파일
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 설치 파일 (APK, AAB, IPA 등)
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 심볼릭 파일
+app.*.symbols
+
+# 난독화 파일
+app.*.map.json
+
+# Android Studio 빌드 결과물
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ============================================================
+# 환경 변수 및 API 키 (중요!)
+# ============================================================
+
+# 환경 변수 파일
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# Android API 키
+android/local.properties
+android/key.properties
+
+# iOS API 키 및 비밀 정보
+ios/Flutter/Secrets.xcconfig
+ios/Runner/GoogleService-Info.plist
+ios/.symlinks/
+
+# Firebase 설정 파일 (민감 정보 포함 시)
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+
+# ============================================================
+# Android
+# ============================================================
+
+# Gradle 캐시
+.gradle/
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# Android 빌드 결과물
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# ============================================================
+# iOS / Xcode
+# ============================================================
+
+# Xcode 프로젝트
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# CocoaPods
+**/ios/Pods/
+**/ios/Podfile.lock
+
+# ============================================================
+# IntelliJ IDEA
+# ============================================================
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# ============================================================
+# Eclipse
+# ============================================================
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# ============================================================
+# NetBeans
+# ============================================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+*.code-workspace
+
+# ============================================================
+# Operating System
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+
+# ============================================================
+# 기타
+# ============================================================
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 백업 파일
+*.bak
+*.backup
+
+# 커버리지 리포트
+coverage/
+lcov.info
+
+# 생성된 파일들
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Firebase 로컬 에뮬레이터
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# ============================================================
+# SafeWay 프로젝트 전용
+# ============================================================
+
+# 커스텀 설정 (필요시 추가)
+# config/secrets.yaml
+# assets/private/
